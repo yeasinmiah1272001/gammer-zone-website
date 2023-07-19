@@ -1,0 +1,444 @@
+body{
+font-family: 'Open Sans', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.fornt-color{
+    color: #ff42a5;
+}
+
+/* Navbar Style Start */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #faf7f7;
+    background-origin: padding-box;x-shadow: 0px 4px 30px 0px rgba(242, 226, 226, 0.92);
+    padding:10px ;
+    box-shadow: 20px 20px 20px rgb(144, 18, 
+18);
+    height: 70px;
+}
+.logo{
+    display: flex;
+    gap: 30px;
+    margin-left: 95px;
+}
+.g{
+    font-size: 45px;
+}
+.amer{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-box{
+    border: 2px solid rgb(88, 87, 87);
+    width: 180px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-right: 40px;
+}
+.nav-photo{
+    margin-left: 20px;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+    margin-left: 400px;
+}
+
+/* Navbar Style End */
+
+/* First Section Start */
+
+.first-section{
+    display: flex;
+    background: #FFF;
+}
+.left-side{
+    margin-top: 150px;
+    padding-left: 100px;
+    width: 100%;
+    margin-left: 20px;
+}
+.left-side li{
+    color: gray;
+}
+.btn-1{
+    display: inline-flex;
+    padding: 10px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: white;
+}
+.btn-2{
+    display: inline-flex;
+    padding: 10px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: white;
+}
+.goat{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 50px;
+}
+.right-side{
+    margin-right: 200px;
+}
+.banner-img-1{
+    width: 400px;
+    margin-top: 50px;  
+}
+
+/* First Section End */
+
+/* Second Section Start */
+
+.second-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+}
+.banner-img-2{
+    width: 600px;
+    height: 500px;
+}
+.right-side-2{
+    margin-top: 110px;
+    margin-left: 250px;
+}
+.front-primary{
+    font: 1em sans-serif;ont-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-description{
+    color: #534C64;
+}
+
+/* Second Section End*/
+
+/* Third Section Start */
+
+.third-section{
+    margin-top: 40px;
+}
+.online-games{
+    margin: 10px;
+}
+.game-title{
+    text-align: center;
+}
+.img-flex{
+    display: flex;
+    justify-content: center;
+}
+.online-games{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.img-1{
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 270px;
+    width: 200px;
+    border-radius: 16px;
+}
+.img-2{
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 270px;
+    width: 200px;
+    border-radius: 16px;
+}
+.img-3{
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 270px;
+    width: 200px;
+    border-radius: 16px;
+}
+.img-4{
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 270px;
+    width: 200px;
+    border-radius: 16px;
+}
+.img-description-1{
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.img-description-2{
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 12px;
+}
+.img-description-3{
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 12px;
+}
+.img-description-4{
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+/*Third Section Section End*/
+
+/* Fourth Section Start */
+
+.horse-container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.horse-container-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.horse-container-description{
+    color: #534C64;
+    font-size: 18px;
+    margin-right: 100px;
+}
+.horse-img{
+    position: relative;
+}
+.small-img{
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    width: 80px;
+}
+
+/* Fourth Section End */
+
+/* Fifth-Section Start */
+
+.fifth-section{
+    width: 100%;
+    height: 300px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.icon-img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+.first-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.first-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.action-title{
+    margin-top: 20px;
+}
+.second-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.second-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.third-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.third-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.fourth-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.fourth-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.fifth-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;    
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.fifth-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.sixth-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.sixth-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.seventh-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.seventh-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.eighth-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.eighth-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+.nineth-icon{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background: #f6eded;
+    margin-top: 70px;
+    gap: 10px;
+}
+.nineth-icon:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 1px solid  #FF42A5;
+}
+
+/* Fifth Section End  */
+
+/* Footer Section Start  */
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 100%px;
+    text-align: center;
+    margin-top: 70px;
+}
+.footer-div{
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.footer-help{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 320px;
+    color: white;
+    font-size: 18px;
+}
+.black{
+    color: white;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.footer-privacy{
+    font-size: 15px;
+    margin-left: 370px;
+}
+.copy-right{
+    color: white;
+}
+
+/* Footer Section End */
