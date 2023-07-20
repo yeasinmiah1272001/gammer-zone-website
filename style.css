@@ -1,0 +1,425 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.games-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+.gamer-span{
+    font-size: 42px;
+    color: rgb(199, 30, 95);
+    margin-left: 20px;
+}
+.follow-on{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-us{
+    font-size: 40px;
+}
+.youtube{ 
+    margin-left: 5px !important;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.amer{
+    color: black;
+    font-size: 38px;
+}
+.inner-games-content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 7px 15px;
+    margin: 20px;
+}
+.inner-games-content img{
+   height: 40px;
+}
+.inner-games-content p{
+    margin-left: 5px;
+}
+.inner-games-content:hover{
+    
+    border: 1px solid red;
+    border-radius: 50px;
+}
+.inner-games-content:hover .inner{
+    color: red;
+}
+.multiimage{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.mul-one{
+    width: 80%;
+}
+.mul-two{
+    width: 50%;
+    padding-left: 20%;
+    margin-top: 20%;
+   align-items: center;
+}
+.mul-two h1{
+    font-size: 30px;
+}
+.oneimage{
+    width: 80%;
+    height: 60%;
+    margin-top: 20%;
+}
+.twoimage{
+    width: 40%;
+    margin-top: -50%;
+    margin-left: 50%;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Set the opacity for the image */
+
+.image-container img {
+    transition: opacity 0.3s ease;
+}
+
+/* Style the overlay div */
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Show the text when hovering over the container */
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+/* Add styling for the text inside the overlay */
+
+.image-overlay p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+section{
+    margin: 0% 10%;
+    max-width: 1400px;
+}
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   
+}
+.videos{
+overflow: hidden;
+padding: 10px;
+}
+.videos img{
+    width: 100%;
+}
+.main-header-icon{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.icon-text{
+    margin-left: 10px;
+}
+.button-container{
+    display: flex;
+    margin-top: 40px;
+}
+.first-btn{
+    background-color: rgb(238, 76, 209);
+}
+.last-btn{
+ margin-left: 30px;
+ background-color: rgb(93, 200, 246);
+}
+.goat{
+    font-size: 50px;
+    color : rgb(230, 41, 208);
+    margin-top: 25px; 
+}
+.banner-container{
+    margin-top: 50px;
+}
+.banner-container button{
+    padding: 14px 22px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-half h1{
+    font-size: 30px;
+}
+.banner-half img{
+    height: 85%;
+    margin-top: -20px;
+    width: 100% !important;
+}
+.footer-display-text{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.break{
+    margin-top: 10px;
+}
+.footer-icon{
+    text-align: center;
+    align-items: center;
+}
+footer{
+    padding: 100px 20px;
+}
+.footer-display-text p{
+    padding: 20px;
+}
+.footer-display-plain{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-display-plain p{
+    padding: 20px;
+}
+.footer-display-copyright{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-display-icon{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-display-icon p{
+    padding: 5px;
+}
+.footer{
+    background-color: rgb(8, 2, 16);
+    color: white;
+}
+.footer-logo{
+    text-align: center;
+}
+
+
+/* For Mobile Device Start */
+@media screen and (max-width:576px) {
+    .header-container{
+        margin-top: 20px;
+       text-align: center;
+        align-items: center;
+    }
+    .header-container img{
+        height: 30px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .header-container ul li{
+        list-style: none;
+        margin: 0px 20px;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .header-container ul li:hover{
+        background-color: rgb(207, 229, 248);
+        border-radius: 5px;
+    }
+   .icon-container{
+    text-align: center !important;
+   }
+    .banner-half{
+        text-align: center !important;
+    }
+    .button-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-header-icon{
+        display: flex;
+       margin-left: 20%;
+    }
+    .banner-half img{
+        margin-top: 40px;
+    }
+    .videos-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+    }
+    .videos{
+    border: 2px solid red;
+    overflow: hidden;
+    padding: 10px;
+    }
+    .videos img{
+        width: 100%;
+    }
+    .multiimage{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .mul-one{
+        width: 90%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mul-two{
+        width: 50%;
+        margin-top: 0px !important;
+        text-align: left !important;
+    }
+    .games-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    .inner-games-content p{
+        margin-left: 1px !important;
+        font-size: 10px;
+    }
+    .inner-games-content img{
+        margin-left: -10px !important;
+        font-size: 10px;
+    }
+    .inner-games-content{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        padding: 5px -8px !important;
+        margin: 20px;
+    }
+    .footer-display-plain{
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-display-plain p{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .footer-display-text{
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-display-text p{
+        padding: 20px;
+    }
+    .footer-display-icon{
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-display-icon p{
+        padding: -1px !important;
+    }
+    .mul-one{
+        margin-bottom: 100px;
+    }
+    .oneimage{
+        width: 60%;
+        height: 50%;
+        margin-left: -50px;
+    position: relative;
+    }
+    .twoimage{
+        position: absolute;
+        width: 35%;
+        margin-top: 50%;
+        margin-left: -10%;
+    }
+    .first-copyright{
+        margin-top: -15px;
+    }
+    .footer-display-copyright{
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+    .second-section-text{
+        text-align: center;
+    }
+    .second-section-text h1{
+        font-size: 30px;
+    }
+    .second-section-text p{
+        font-size: 12px;
+    }
+    .second-span{
+        color:   rgb(230, 41, 208);
+    }
+ /* For Mobile Device End */
+
+ @media screen and (min-width:576px) and (max-width:20000px) {
+    .header-container{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-container img{
+        height: 30px;
+    }
+    .header-container ul{
+        display: flex;
+    }
+    .header-container ul li{
+        list-style: none;
+        margin: 0px 20px;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .header-container ul li:hover{
+        background-color: rgb(207, 229, 248);
+        border-radius: 5px;
+    }
+    .banner-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-half{
+        width: 50% !important;
+    }  
+}
